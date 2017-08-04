@@ -1,13 +1,19 @@
-#meImg {
+body {
+    background: url("../images/vertical-waves.png")
+}
+
+/*
+div {
+    border: black 1px solid;
+}
+*/
+
+.meImg {
 	height: 100px;
 	width: 100px;
 	margin-right: 12px;
 	margin-bottom: 5px;
 	margin-top: 6px;
-}
-
-div {
-    border: black 1px solid;
 }
 
 .footer {
@@ -17,4 +23,45 @@ div {
 	background-color: #666666;
     border-top: 5px #4aaaa5 solid;
     height: 68px;
+}
+
+.copyright {
+    color: white;
+	text-align: center;
+	padding-top: 20px; 
+	font-size: 12px;
+}
+
+.link-img {
+    width: 50px;
+	height: 50px;
+	margin: 2px;
+	margin-top: 10px;
+    margin: 0px;
+}
+
+/*
+.btn-default{
+    width: 50px;
+	height: 50px;
+	margin: 2px;
+	margin-top: 10px;
+    padding: 0px;
+    border: none;
+}
+
+.btn {
+    width: 50px;
+	height: 50px;
+	margin: 2px;
+	margin-top: 10px;
+    padding: 0px;
+    border: none;
+}
+*/
+
+.content {
+}
+
+.social-media {
 }
