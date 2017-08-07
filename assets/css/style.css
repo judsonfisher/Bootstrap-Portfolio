@@ -1,12 +1,13 @@
 body {
-    background: url("../images/vertical-waves.png")
+    background: url("../images/vertical-waves.png");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    height: 1300px;
 }
 
-/*
-div {
-    border: black 1px solid;
+h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
 }
-*/
 
 .meImg {
 	height: 100px;
@@ -14,6 +15,7 @@ div {
 	margin-right: 12px;
 	margin-bottom: 5px;
 	margin-top: 6px;
+	float: left;
 }
 
 .footer {
@@ -23,6 +25,13 @@ div {
 	background-color: #666666;
     border-top: 5px #4aaaa5 solid;
     height: 68px;
+}
+
+.footerText{
+	color: white;
+	text-align: center;
+	padding-top: 24px; 
+	font-size: 12px;
 }
 
 .copyright {
@@ -40,28 +49,41 @@ div {
     margin: 0px;
 }
 
-/*
-.btn-default{
-    width: 50px;
-	height: 50px;
-	margin: 2px;
-	margin-top: 10px;
-    padding: 0px;
-    border: none;
+a.thumbnail {
+	heigh: 60px;
+	width: 60px;
+	margin: 5px;
+	float: left;
 }
 
-.btn {
-    width: 50px;
-	height: 50px;
-	margin: 2px;
-	margin-top: 10px;
-    padding: 0px;
-    border: none;
-}
-*/
-
-.content {
+.thumbnail-div {
+	align-content: center;
 }
 
-.social-media {
+.no-margin {
+	margin: 0px;
+	padding: 0px;
+	width: 60px;
+}
+
+.row {
+	margin: 4px;
+}
+
+.col-md-8, .col-xs-12, .col-s-12 {
+	background-color: #ffffff;
+	border: #dddddd 1px solid;
+}
+
+.img-p {
+	height: 100%;
+	width: 100%;
+	margin: none;
+	padding: none;
+}
+
+.img-div {
+	background-color: none;
+	border: none;
+	padding: 5px;
 }
