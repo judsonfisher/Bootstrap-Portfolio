@@ -1,7 +1,7 @@
 body {
     background: url("../images/vertical-waves.png");
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    height: 1300px;
+    padding-bottom: 100px;
 }
 
 h1 {
@@ -56,9 +56,10 @@ a.thumbnail {
 	float: left;
 }
 
-.thumbnail-div {
-	align-content: center;
-}
+/*.thumbnail-div {
+	margin-bottom: 5%;
+    margin-left: 7%;
+}*/
 
 .no-margin {
 	margin: 0px;
@@ -73,6 +74,8 @@ a.thumbnail {
 .col-md-8, .col-xs-12, .col-s-12 {
 	background-color: #ffffff;
 	border: #dddddd 1px solid;
+	padding-bottom: 15px;
+	margin-top: 10px;
 }
 
 .img-p {
@@ -86,4 +89,9 @@ a.thumbnail {
 	background-color: none;
 	border: none;
 	padding: 5px;
+}
+
+.p-thumbnail {
+	height: 150px;
+	width: 150px;
 }
