@@ -1,2 +1,2 @@
-# Bootstrap-Portfolio
-This is my Bootstrap portfolio
+# My-Portfolio
+This is my personal development portfolio
